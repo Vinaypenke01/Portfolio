@@ -1,24 +1,27 @@
-*{
+* {
   margin: 0;
   text-transform: capitalize;
 }
+
 /* General Styles */
- body {
+body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #fff;
   color: #333;
   transition: 0.3s;
 }
+
 .navbar-nav .nav-link.active {
   color: blue !important;
   font-weight: bold;
 }
 
 /* Navbar Styling */
-.collapse{
+.collapse {
   margin-left: 800px;
 }
+
 .navbar {
   background: white;
   padding: 15px 20px;
@@ -32,7 +35,8 @@
   transition: 0.3s;
   font-size: 20px;
 }
-.navbar .nav-link{
+
+.navbar .nav-link {
   color: black;
 }
 
@@ -81,60 +85,78 @@
 .popup-nav.active {
   left: 0;
 }
-#home{
+
+#home {
   background-image: url("./vinay_files/cloudBg.f28b5c6961fd82be839c.png");
   max-height: 100%;
 }
-@media (max-width: 768px) {  /* Applies to devices with width ≤ 768px */
-  #home{
+
+@media (max-width: 768px) {
+
+  /* Applies to devices with width ≤ 768px */
+  #home {
     align-items: start;
   }
+
   .labimage {
-      display: none;  /* Hides the image */
+    display: none;
+    /* Hides the image */
   }
-  #social{
+
+  #social {
     gap: 3;
   }
 }
-.header-tops{
+
+.header-tops {
   padding-bottom: 100px;
 }
-.owner{
+
+.owner {
   font-size: 60px;
-  font-weight:bolder
+  font-weight: bolder
 }
-.resume{
+
+.resume {
   margin: 20px;
   padding: 80px;
   font-size: xx-large;
 }
 
 /* ABOUT */
-.about_sub_heading{
-  margin-top: 4rem; /* Equivalent to mt-16 */
-  font-size: 1.875rem; /* Equivalent to text-3xl */
-  font-weight: 600; /* Equivalent to font-semibold */
-  color: #3b82f6; /* Equivalent to text-blue-500 */
+.about_sub_heading {
+  margin-top: 4rem;
+  /* Equivalent to mt-16 */
+  font-size: 1.875rem;
+  /* Equivalent to text-3xl */
+  font-weight: 600;
+  /* Equivalent to font-semibold */
+  color: #3b82f6;
+  /* Equivalent to text-blue-500 */
 }
-.about_heading{
+
+.about_heading {
   font-size: 2rem;
   font-weight: bolder;
 }
-.about_para{
+
+.about_para {
   font-size: 20px;
   font-weight: 600;
 }
-.skill{
-  padding:10px 10px 0 10px;
+
+.skill {
+  padding: 10px 10px 0 10px;
   font-size: 15px;
   color: black;
 }
 
 /* SERVICES */
-#services{
+#services {
   background-color: #F3F4F6;
   width: 100%;
 }
+
 .service-card {
   background: white;
   padding: 20px;
@@ -165,10 +187,12 @@
 .service-card:hover {
   transform: translateY(-5px);
 }
-.card{
+
+.card {
   box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
 
 }
-#mail{
+
+#mail {
   color: black;
 }
